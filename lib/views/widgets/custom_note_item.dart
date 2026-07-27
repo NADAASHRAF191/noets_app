@@ -22,7 +22,7 @@ class NoteItem extends StatelessWidget {
               padding: const EdgeInsets.only(top: 16,bottom: 16),
               child: Text("Build your first app",
               style: TextStyle(color: Colors.black.withOpacity(0.7),
-              fontSize: 16
+              fontSize: 18,
               ),),
             ),
            trailing: IconButton( onPressed: () {}, icon: const Icon(Icons.delete,
